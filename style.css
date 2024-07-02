@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 1440px;
+    margin: auto;
+}
+.container{
+    background-image:url(./images/backgrond.jpg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-size:100% 100vh;
+    overflow: hidden;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin:0 200px;
+    padding: 20px 0;
+}
+.menu img{
+    width: 200px;
+    height: 80px;
+}
+.menu-nav{
+    display: flex;
+    gap: 30px;
+    font-size: larger;
+    align-items: center;
+}
+.menu-nav a{
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+}
+.nav-btn{
+    width: 150px;
+    height: 50px;
+    padding: 10px;
+    background-color: white;
+    font-size: larger;
+}
+/* Home Container css */
+.home-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 200px;
+}
+.home-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.home-content h1{
+    font-size: 100px;
+    color: white;
+}
+.home-content h1 span{
+    color: orange;
+}
+.home-content p{
+    color: white;
+    margin: 10 0;
+}
+.home-content button{
+    width: 200px;
+    height: 50px;
+    font-size: larger;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: white;
+}
+.home-container img{
+    width: 600px;
+}
+/* integrations */
+.integrations{
+    margin: 80px 200px;
+}
+.integrations h2{
+    font-size: 50px;
+}
+.integrations-img{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.integrations-img img{
+    width: 200px;
+    height: 100px;
+}
+/* Provider */
+.Provider{
+    margin: 0 200px;
+}
+.Provider-btn{
+    padding: 10px 50px;
+    font-size: larger;
+    color: white;
+    background-color: orange;
+}
+.Provider-p{
+    font-size: 40px;
+    margin: 15px 0;
+}
+.Provider-card-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+}
+.Provider-card{
+    position: relative;
+    border: none;
+    height: 400px;
+    background-color: #b9b8b8;
+    padding: 30px;
+    margin-bottom: 80px;
+    /* border-radius: 0 0 100% 0; */
+}
+.Provider-card img{
+    width: 80px;
+}
+.Provider-card h3{
+    font-size: 30px;
+    margin: 10px 0;
+}
+.Provider-card button{
+    position: absolute;
+    padding: 10px 20px;
+    font-size: larger;
+    background-color: orange;
+    color: white;
+    bottom: 10px;
+}
+/* Reviews*/
+.review-container{
+    width: 100%;
+    background-color: antiquewhite;
+}
+.review-cotent{
+    margin: 0 200px;
+}
+.review-cotent button{
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: orange;
+    color: white;
+}
+.review-cotent h3{
+    font-size: 30px;
+    margin-top: 10px;
+}
+.review-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    margin: 50px 50px 0 50px;
+}
+.review-card img{
+    width: 100px;
+    height: 50px;
+}
+.card{
+    padding: 20px;
+    background-color: white;
+    margin-bottom: 40px;
+}
+.card p{
+    margin-bottom: 20px;
+}
+.star{
+    color: blue;
+}
+/* contact */
+.contact-container{
+    text-align: center;
+    background-color: aquamarine;
+    padding: 50px;
+}
+.contact-container h3{
+    font-size: 40px;
+}
+.from{
+    padding: 10px 20px;
+}
+.from input{
+    padding: 10px 20px;
+}
+.contact-container button{
+    padding: 10px 40px;
+    background-color: gray;
+    color: white;
+}
+hr{
+   margin-top: 50px;
+}
